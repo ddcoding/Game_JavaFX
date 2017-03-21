@@ -110,7 +110,6 @@ public class Enemy extends Ruch implements Collision {
       }else
       if(enemy1.getLayoutY()<(enemy2.getLayoutY()+HEIGHT_SECOND_ENEMY)) {//1 z dolu
           pause();
-          System.out.print("asd");
           dol(enemy1,szybkosc);
       }
       resume();
